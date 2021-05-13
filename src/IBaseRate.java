@@ -1,6 +1,9 @@
 public interface IBaseRate {
 
-//    void getSavingInterestRate();
-//
-//    void getCheckingInterestRate();
+
+    default double getBaseRate(){
+        return 2.5;
+    }
+
+//    double getInterestRate();
 }
